@@ -105,12 +105,10 @@ section.main{
 .abrir-conta{
     float: left;
     width: 40%;
-    /* margin-bottom: 15px; */
 }
 .abrir-conta h2{
     color: black;
     font-size: 30px;
-    /* font-family: Helvetica, Arial, sans-serif; */
     padding-left: 5px;
 }
 .abrir-conta h3{
@@ -118,7 +116,6 @@ section.main{
     font-size: 20px;
     margin-top: 10px;
     font-weight: normal;
-    /* font-family: Helvetica, Arial, sans-serif; */
     padding-left: 5px;
 }
 
@@ -155,9 +152,7 @@ form.criar-conta input[type=password]{
 }
 .data-nasc p{
     font-size: 20px;
-    /* margin-top: 20px; */
     font-weight: normal;
-    /* font-family: Helvetica, Arial, sans-serif; */
     margin: 8px 5px;
 }
 .nascimento{
@@ -182,7 +177,6 @@ form.criar-conta input[type=password]{
 }
 
 .sexo{
-    /* display: flex; */
     align-items: baseline;
     margin-top: 10px;
     width: 50%;
@@ -193,7 +187,6 @@ form.criar-conta input[type=password]{
 }
 .sexo label{
     font-weight: normal;
-    /* font-family: Helvetica, Arial, sans-serif; */
     font-size: 18px;
     margin-right: 20px;
     margin-left: 5px;  
@@ -210,7 +203,6 @@ form.criar-conta input[type=password]{
 .termo p{
     font-size: 15px;
     color: gray;
-    /* font-family: Helvetica, Arial, sans-serif; */
     font-weight: normal;
 }
 
@@ -225,7 +217,6 @@ form.criar-conta input[type=password]{
     font-size: 20px;
     border-radius: 5px;
     border: 0;
-    /* font-family: Helvetica, Arial, sans-serif; */
     font-weight: bold;
     padding: 5px 30px;
     cursor: pointer;
