@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.clear{
+    clear: both; /* estudar sobre isso */
+}
+
+.topo{
+    max-width: 1200px;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+header{
+    background: #3b5999;
+    padding: 8px 0;
+}
+.logo{
+    float: left;
+    color: #ffff;
+    margin-top: 15px;
+}
+.logo h2{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+form.form-login{
+    float: right;
+}
+.form-login .form-element{
+    display: inline-block;
+    margin-right: 10px;
+}
+.form-element p{
+    color: #ffff;
+    font-size: 15px;
+}
+/* dando uma margem entre os nomes "e-mail", "senha " e os inputs */
+.form-element input[type=email],
+.form-element input[type=password]{
+    margin-top: 5px;
+    border: 0;
+    padding-left: 5px;
+    height: 20px;
+}
+
+.form-element input[type=submit]{
+    background: #1c4397;
+    cursor: pointer;
+    color: #ffff;
+    border: 0;
+    padding: 3px 6px;
+}
+.form-element input[type=submit]:hover{
+    background: #355bae;
+}
+
+.esqueceu{
+    width: 100%;
+    float: right;
+}
+
+.esqueceu p{
+    color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 305px;
+    margin-top: 5px;
+}
+.esqueceu a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+section.main{
+    background: linear-gradient(white, #cad3e4);
+    padding: 50px 0;
+}
+.center{
+    max-width: 1200px;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+
+.img-pessoas{
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+}
+.img-pessoas img{
+    max-width: 80%;
+    margin-left: 10px;
+}
+.img-pessoas p{
+    color: #294782;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+.abrir-conta{
+    float: left;
+    width: 40%;
+    /* margin-bottom: 15px; */
+}
+.abrir-conta h2{
+    color: black;
+    font-size: 30px;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    padding-left: 5px;
+}
+.abrir-conta h3{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: normal;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    padding-left: 5px;
+}
+
+form.criar-conta{
+    margin-top: 15px;
+}
+.w50{
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+}
+.w100{
+    width: 100%;
+    float: left;
+    padding: 0 5px;
+}
+form.criar-conta input{
+    width: 100%;
+    margin-top: 10px;
+}
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password]{
+    font-size: 18px;
+    padding-left: 10px;
+    height: 30px;
+    border: 1px solid #d4d8e2;
+    border-radius: 1px;
+}
+
+.data-nasc{
+   width: 100%;
+   margin-top: 20px;
+}
+.data-nasc p{
+    font-size: 20px;
+    /* margin-top: 20px; */
+    font-weight: normal;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    margin: 8px 5px;
+}
+.nascimento{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    margin: 5px;
+}
+.nascimento select{
+    padding: 0 10px;
+    margin: 3px;
+    height: 35px;
+}
+.data{
+    padding-left: 5px;
+}
+.text p{
+    color: #294782;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.sexo{
+    /* display: flex; */
+    align-items: baseline;
+    margin-top: 10px;
+    width: 50%;
+}
+.sexo input{
+    text-align: center;
+    margin-left: 10px; 
+}
+.sexo label{
+    font-weight: normal;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 5px;  
+}
+.sexo input[type=radio]{
+    width: 5%;  
+}
+
+.termo{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.termo p{
+    font-size: 15px;
+    color: gray;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-weight: normal;
+}
+
+.inscreva{
+    margin: 50px 5px;
+    width: 40%;
+    cursor: pointer;
+}
+.inscreva input{
+    background: rgb(20, 150, 20);
+    color: #ffff;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-weight: bold;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.criar-pagina{
+    margin: 50px 5px;
+}
+.criar-pagina p{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(17, 114, 121, 0.974);
+}
+
+
+@media screen and (max-width: 768px){
+    .logo{
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    form.form-login{
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .form-login .form-element{
+        display: block;
+        margin: 10px 0;
+    }
+    .form-element p{
+        color: #ffff;
+        font-size: 20px;
+    }
+    .form-element input[type=email],
+    .form-element input[type=password]{
+        margin-top: 10px;
+        border: 0;
+        height: 25px;
+        padding-left: 5px;
+        width: 100%;
+        max-width: 400px;
+    }
+    .form-element input[type=submit]{
+        width: 120px;
+    }
+    .esqueceu{
+        width: 100%;
+        float: none;
+        margin: 20px 0;
+    }
+    
+    .esqueceu p{
+        color: rgb(255, 255, 255);
+        float: none;
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+    }
+    .img-pessoas{
+        display: none; /* escondendo a imagem com pessoas */
+    }
+    .abrir-conta{
+        width: 100%;
+        margin-top: -35px;
+    }
+    .abrir-conta h2, h3{
+        text-align: center;  
+    }
+    form.criar-conta{
+        margin-top: 0;
+    }
+
+    .data-nasc{
+        text-align: center;
+        margin-top: 0;
+    }
+    .nascimento{
+        display: inline-block;
+        width: 100%;    
+    }
+    .nascimento select{
+        margin: 5px;
+    }
+    .data{
+        padding-left: 5px;
+    }
+    .text p{
+        display: none;
+    }
+    .termo{
+        display: none;
+    }
+
+    .sexo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .inscreva{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .criar-pagina{
+        width: 100%;
+    }
+    .criar-pagina p{
+        padding: 5px;
+    }
+}
